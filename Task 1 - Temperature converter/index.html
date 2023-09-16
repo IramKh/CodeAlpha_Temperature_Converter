@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <div class="input-container">
+            <input type="number" id="temperature" placeholder="Enter temperature">
+            <select id="from-unit">
+                <option value="celsius">Celsius (°C)</option>
+                <option value="fahrenheit">Fahrenheit (°F)</option>
+                <option value="kelvin">Kelvin (K)</option>
+                <option value="rankine">Rankine (°R)</option>
+                <!-- Add more temperature units here -->
+            </select>
+        </div>
+        <div class="input-container">
+            <select id="to-unit">
+                <option value="celsius">Celsius (°C)</option>
+                <option value="fahrenheit">Fahrenheit (°F)</option>
+                <option value="kelvin">Kelvin (K)</option>
+                <option value="rankine">Rankine (°R)</option>
+                <!-- Add more temperature units here -->
+            </select>
+        </div>
+        <button id="convert"><i class="fas fa-exchange-alt"></i> Convert</button>
+        <div id="result"></div>
+    </div>
+    <script src="css/script.js"></script>
+</body>
+</html>
